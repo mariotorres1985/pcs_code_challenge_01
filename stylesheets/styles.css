@@ -59,6 +59,8 @@ padding-top: 5px;
 }
  	
 .page_heading {
+  padding: 10px 0px 10px 0px;
+
     margin-left: 5%;
     color:#DEE6F5;
 } 
@@ -124,8 +126,13 @@ padding-top: 5px;
   .container {
     width: 100%;
     margin:0;
-    background-color: #BACDEA;
+    background-color: #35517D;
   }
+
+  .page_heading {
+    margin-left: 5%;
+    color:#ffffff;
+} 
 
 }
 
