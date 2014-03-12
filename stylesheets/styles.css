@@ -1,9 +1,7 @@
 
-This file contains all your CSS style rules. 
-indent = 2 spaces, not tabs 
 
 
-*/
+
 
 /* because every browser has a built in stylesheet we have to reset those properties that we want to manipulate later. We do this by setting those properties to zero for the entire HTML document and any other tag selectors we want to redefine from scratch*/
 
@@ -11,22 +9,25 @@ html h1 {
   margin: 0;
 }
 
+
 /* next we set up those properties that we want to apply everywhere that is visible on the page using the body selector. Notice the "font-family" */
 
 body {
   font-size: 1.1em;
   font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
-  background-color: #0E0E23
+  background-color: #35517D
 }
 
 p {
   color: #111111;
-  display: block;
+  clear: inherit;
 
 }
 
 ol{
-clear:both;
+  clear: inherit;
+display: inline-block;
+padding-top: 5px;
 
 }
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
@@ -36,19 +37,21 @@ clear:both;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #F37706
+  background-color: #7DA7D9
 }
 
 /* The next set of styles pretty much just "open up" the page and create white space */
 .right_float {
   float:right;
-  padding: 0px;
-  margin: 0px 0px
+  margin: 20px 0px;
+
+
+  
 }
 
 .left_float {
   float:left;
-  padding: px;
+  padding: 0px;
   margin: 0px 0px
 }
 .header {
@@ -57,10 +60,13 @@ clear:both;
  	
 .page_heading {
     margin-left: 5%;
+    color:#DEE6F5;
 } 
 	
-.author_information {
+.author_information a{
     margin-left: 5%;
+    text-decoration: none;
+    color:#DEE6F5;
 }
 
 /* we want the validation pages to appear on the right side of the page inside the container */
@@ -78,19 +84,21 @@ clear:both;
 }
 
 .article_heading {
-  width: 70%;
+  width: 85%;
   margin-left: 5%;
   padding: 2%;
   border: 1px solid black;
-  background-color: #7DA7D9;
+  background-color: #DEE6F5;
 
 }
 
 .article_content {
+  width: 85%;
   margin: 0 5% 0 5%;
   padding: 2%;
   border:1px solid gray;
   background-color: #ffffff;
+
 
 }
 
@@ -107,15 +115,16 @@ clear:both;
 @media (max-width: 600px) {
   .validation_badge {
     display: none;
+
   }
   .article_heading {
     border: none;
-    background-color: white;
+    background-color: #7AA5D8;
   }
   .container {
     width: 100%;
     margin:0;
-    background-color: white;
+    background-color: #BACDEA;
   }
 
 }
