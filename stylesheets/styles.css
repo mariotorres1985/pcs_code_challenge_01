@@ -21,15 +21,15 @@ body {
 p {
   color: #111111;
   clear: inherit;
-
 }
 
 ol{
   clear: inherit;
 display: inline-block;
 padding-top: 5px;
-
 }
+
+
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
 */
 
@@ -42,23 +42,25 @@ padding-top: 5px;
 
 /* The next set of styles pretty much just "open up" the page and create white space */
 .right_float {
-  float:right;
-  margin: 20px 0px;
-
-
+  float: right;
+  margin: 20px 20px;
   
 }
 
 .left_float {
-  float:left;
+  float: left;
   padding: 0px;
-  margin: 0px 0px
+  margin: 20px 20px
+  
 }
+
 .header {
   margin: 5%;
 }
  	
 .page_heading {
+  padding: 10px 0px 10px 0px;
+
     margin-left: 5%;
     color:#DEE6F5;
 } 
@@ -124,8 +126,13 @@ padding-top: 5px;
   .container {
     width: 100%;
     margin:0;
-    background-color: #BACDEA;
+    background-color: #35517D;
   }
+
+  .page_heading {
+    margin-left: 5%;
+    color:#ffffff;
+} 
 
 }
 
