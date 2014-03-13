@@ -1,0 +1,132 @@
+
+<!-- The doctype declares the type of coding the HTML page uses so that the browser knows how to render it. -->
+<!DOCTYPE html>
+
+<!-- The  html tag contains everything on the page: head and body-->
+<html>
+
+  <!-- The "head" container includes all the information the browser needs to display the page -->
+  <head>
+    <!-- the "meta" tag is used to provide, ah, meta-information about the page. 
+         This one is another method to the browser what this content is and what character set we are using 
+    -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- edit the title to include your name and make it in possessive case (http://englishplus.com/grammar/00000364.htm) -->
+    <title>Los Robotos</title>
+    
+    <!-- The "link" tag identifies your external CSS style sheet. Edit this link to use your particular file  -->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css" />
+  	
+    <!-- the "style" tag container includes this page's unique style rules -->
+
+  </head>
+
+  <!-- The "body" tag container includes the structure and content of the page -->
+  <body>
+
+    <div class="container"> <!-- contains everything on the page; used for centering and margins-->
+
+    	<div class="header"> <!-- contains the constant stuff at the top of the page -->
+        <div class="validation_badge">
+
+        <!-- replace this html with the html snippets that displays your validation badges. -->
+        <p>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+              src="//jigsaw.w3.org/css-validator/images/vcss-blue"
+              alt="Valid CSS!" />
+          </a>
+        </p>
+        <!-- Notice that the indentation style of the second segment of code is all on one line. Which one is more readable for you? -->
+        <p>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+              src="//jigsaw.w3.org/css-validator/images/vcss"
+              alt="Valid CSS!" />
+          </a>
+        </p>
+      </div>
+
+    	<div class="page_heading">
+        <!-- replace "student name" with your name and make it in possesive case (http://englishplus.com/grammar/00000364.htm) -->
+        <h1 id="title">Los Robotos</h1>
+    	</div>
+    	<div class="author_information">
+        <a href="mailto:arcydouglass@email.com">Contact Email</a>
+    	</div>
+    </div>
+
+    		
+    	<!-- every time you update the page, create a new article 
+    	you can copy this section of code (everything in the div.article container) and change the contents 
+    	-->
+
+      <div class="article">
+        <div class="article_heading">
+         <h1>Week 1 - It starts great!</h1>
+          <h3 class="date"><marquee>28-Feb-2014</marquee></h3>
+        </div>
+        <div class="article_content">
+          <p>We have lift off!</p>
+          <img class="left_float" src="images/daft_punk2.jpg" alt="daft punk image #1" height="250" width="250" />
+          
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra ultricies nibh, in interdum tellus ultrices id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse urna lorem, imperdiet a mattis sed, blandit id elit. Proin id ultrices odio. Vivamus ut nisl nulla. Proin consectetur urna vitae est fermentum in placerat elit condimentum. Morbi iaculis elit sit amet lacus convallis a semper risus elementum.</p>
+          
+          <ol>
+            <li>Git</li>
+            <li>MAMP</li>
+            <li>Preponderance of Mac use in Front-end work</li>
+            <li>Kitchen metaphor</li>
+            <li>Parallax</li>
+          </ol>
+
+
+
+        </div>    
+      </div>
+
+
+      <div class="article">
+        <div class="article_heading">
+         <h1>Week 2 - It gets better!</h1>
+         <h3 class="date"><marquee>3-March-2014</marquee></h3>
+        </div>
+        <div class="article_content">
+          <p>Except the stuff in the article content is different.</p>
+          <img class="right_float" src="images/daft_punk3.jpg" alt="daft punk image #2" height="250" width="250" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra ultricies nibh, in interdum tellus ultrices id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse urna lorem, imperdiet a mattis sed, blandit id elit. Proin id ultrices odio. Vivamus ut nisl nulla. Proin consectetur urna vitae est fermentum in placerat elit condimentum. Morbi iaculis elit sit amet lacus convallis a semper risus elementum.</p>
+
+          <ol>
+            <li>Metatext</li>
+            <li>Chrome code inspector</li>
+            <li>Understanding tools</li>
+            <li>CSS inheritance</li>
+            <li>Describing context</li>
+          </ol>
+
+          
+
+        </div>    
+      </div>
+    	<!-- the footer area sits at the bottom of the page under all of the journal entries -->
+
+    	<div class="footer">
+        <!-- edit the footer to include your name  -->
+    	 Copyright &copy; 2014 Domo Arigato Inc.
+    	</div>
+  	</div>  <!-- .container -->
+
+    <!-- This is where you link to this page's javascript file. -->
+  	<script src="scripts/XXjournal.js" type="text/javascript"></script>
+
+    <!-- The "script" tag can also contain actual scripts that get executed immediately as the page finishes loading -->
+
+    <script type="text/javascript">
+      initializePage(); // this function is used to perform any scripts needed on the page.
+    </script>
+  </body>
+</html>
